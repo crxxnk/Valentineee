@@ -1,0 +1,137 @@
+.body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.container
+{
+  text-align: center;
+  margin-top: 50px;
+}
+.btn
+{
+  border: 1px solid #24740c;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.btn3
+{
+  border: 1px solid red;
+}
+
+.btn2
+{
+  color: #24740c;
+}
+
+.btn2:hover
+{
+  color: #fff;
+}
+
+.btn::before
+{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+
+.btn2::before
+{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn2:hover::before
+{
+  height: 180%;
+}
+
+.btn3
+{
+  color: red;
+}
+
+.btn3:hover
+{
+  color: #fff;
+  border: 1px solid #24740c;
+}
+
+.btn::before
+{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #24740c;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+
+.btn3::before
+{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn3:hover::before
+{
+  height: 180%;
+}
+
+.btn3:hover::after
+{
+  content: attr(data-hover);
+}
+
+.tenor-gif-embed
+{
+  width: 15px;
+}
+
+.yes-gif-container
+{
+  text-align: center;
+}
+
+.yes-gif
+{
+  width: 40%;
+}
+
+.yay
+{
+  font-family: "Roboto";
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.btn:active
+{
+  background-color: #1e5e0a;
+}
+
+.proposal
+{
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 50px;
+}
